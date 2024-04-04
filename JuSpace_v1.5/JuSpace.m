@@ -75,6 +75,7 @@ for i = 1:length(files_PET)
 end
 
 set(handles.PETlist,'String',files);
+set(handles.opt_perm_spatial,'Value',1);
 % UIWAIT makes JuSpace wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
