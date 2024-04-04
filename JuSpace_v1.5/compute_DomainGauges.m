@@ -275,7 +275,7 @@ for i = 1:size(res,1)
 %            p_i_j = num2str(p_all(i,j));
 %        end
 %        Resh{end,4} = p_i_j;
-       Resh{end,5} = list1{i};
+       Resh{end,4} = list1{i};
     end
 end
 end
